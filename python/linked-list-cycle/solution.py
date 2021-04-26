@@ -1,9 +1,9 @@
-class Node:
+class ListNode:
     def __init__(self, val: int, next=None):
         self.val = val
         self.next = next
     
-def has_cycle(head: Node) -> bool:
+def has_cycle(head: ListNode) -> bool:
     if not head or not head.next:
         return False
     
